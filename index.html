@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Eyoel Moges">
+    <meta name="description" content="Home website for The Little Taco Shop" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Taco Shop</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <section class="header-title-line">
+            <p class = "header__logo">🌮</p>
+            <button class = "btn"><div class = "btn__icon"></div></button>
+        </section>
+        <nav class="nav">
+            <ul>
+                <li class="nav__item"><a class="nav__link" href="About.html">About <abbr title="Little Taco Shop">LTS</abbr></a></li>
+                <li class="nav__item"><a class="nav__link" href="#ourmenu">Our Menu</a></li>
+                <li class="nav__item"><a class="nav__link" href="hours.html">Store Hours</a></li>
+                <li class="nav__item"><a class="nav__link" href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main -->
+    <main class = "main">
+        <!-- Landing Page -->
+        <article class = landing-page>
+            <h1 class="landing-page__title">Welcome to The Little Taco Shop</h1>
+            <section class="order">
+                <h2 class="order__info">Get your Tacos</h2>
+                <button class="order__btn">ORDER NOW</button>
+            </section>
+        </article>
+
+        <!-- Menu -->
+        <article id="ourmenu" class="menu">
+            <h2 class="menu__title">Our Menu</h2>
+            <table class="menu__container">
+                <thead>
+                    <tr>
+                        <th class="menu__header">Tacos</th>
+                        <th class="menu__header"scope="col"><abbr title="Quantity">Qty</abbr></th>
+                        <th class="menu__header"scope="col">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="menu__item menu__cr"scope="row" rowspan="3"><!-- <img class= "menu__img" src="img/Crunchy Tacos 1500x1500.jpg" alt="Crunchy Taco" width="1500" height="1500"> -->Crunchy</th>
+                        <td class="menu__item">1</td>
+                        <td class="menu__item">Birr 500</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">2</td>
+                        <td class="menu__item">Birr 700</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">3</td>
+                        <td class="menu__item">Birr 800</td>
+                    </tr>
+                    <tr>
+                        <th class="menu__item menu__sf"scope="row" rowspan="3"><!-- <img class= "menu__img" src="img/Soft-Taco-1370x1370px.jpg" alt="Soft Taco" width="1370" height="1370"> -->Soft</th>
+                        <td class="menu__item">1</td>
+                        <td class="menu__item">Birr 600</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">2</td>
+                        <td class="menu__item">Birr 750</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">3</td>
+                        <td class="menu__item">Birr 900</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td class="menu__item menu__cs"colspan="3">Chips & Salsa Birr 350 </td>
+                    </tr>
+                </tfoot>
+            </table>
+            <p class="back"><a href="#">Back to Top</a></p>
+        </article>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <p>
+            <span class="nowrap">Copyright &copy;</span>
+            <span class="nowrap">The Little Taco Shop</span>
+        </p>
+    </footer>
+
+    
+</body>
+</html>
