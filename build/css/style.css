@@ -375,7 +375,7 @@ tfoot td {
 
 .hours{
     margin-top: 1em;
-    font-size: 2rem;
+    font-size: var(--FS);
     text-align: center;
 }
 .img--hours{
@@ -534,6 +534,10 @@ tfoot td {
         left:0;
         width: 100%;
         height: 100%;
+    }
+
+    .hours{
+        font-size: 2rem;
     }
 
     .hours__vanish{
